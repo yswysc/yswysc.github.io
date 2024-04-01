@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- OneTrustの本番用スクリプトを設置 -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>キャル＆ヤバイバル | プリンセスコネクト！Re:Dive | Cygames</title>
+    <!-- Google Tag Manager -->
+    <!-- <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PX3LXCMR");
+    </script> -->
+    <!-- End Google Tag Manager -->
+    <meta
+      name="description"
+      content="プリンセスコネクト！Re:Dive (プリコネR) 期間限定コンテンツ『キャル＆ヤバイバル』開催中！"
+    />
+    <meta property="og:title" content="キャル＆ヤバイバル | Cygames" />
+    <meta
+      property="og:description"
+      content="プリンセスコネクト！Re:Dive (プリコネR) 期間限定コンテンツ『キャル＆ヤバイバル』開催中！"
+    />
+    <meta
+      property="og:url"
+      content="https://karyl-yabaival.priconne-redive.jp/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="キャル＆ヤバイバル | プリンセスコネクト！Re:Dive | Cygames"
+    />
+    <meta
+      property="og:image"
+      content="assets/images/common/ogp.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="assets/images/common/ogp.png"
+    />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="assets/css/common.37d8dc62.css" />
+    <script src="assets/js/common.7cecaa42.js"></script>
+    <style>
+      @keyframes loading-logo-show {
+        0% {
+          opacity: 0;
+          margin-top: -30%;
+        }
+        100% {
+          opacity: 1;
+          margin-top: 0;
+        }
+      }
+      @keyframes loading-logo-hide {
+        0% {
+          opacity: 1;
+          margin-top: 0;
+        }
+        100% {
+          opacity: 0;
+          margin-top: -30%;
+        }
+      }
+      @keyframes loading-text-show {
+        0% {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1.07);
+        }
+      }
+      @keyframes loading-text {
+        0% {
+          transform: scale(1.07);
+        }
+        25% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.07);
+        }
+        75% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.07);
+        }
+      }
+      @keyframes loading-text-hide {
+        0% {
+          opacity: 1;
+          transform: scale(1.07);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+      }
+      @keyframes loading-hide {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      .loading {
+        opacity: 1;
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #fff;
+        z-index: 100;
+        pointer-events: none;
+      }
+      .loading__inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        width: 100%;
+      }
+      .loading__logo-wrap {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+      }
+      .loading__logo {
+        display: block;
+        animation: loading-logo-show cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.8s
+          0s forwards;
+      }
+      .loading__text-wrap {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+      }
+      .loading__text {
+        opacity: 0;
+        animation: loading-text-show 0.3s 0.6s forwards,
+          loading-text linear 1.4s 0.9s infinite;
+      }
+
+      .loading__inner {
+        height: 16.2475vw;
+      }
+      .loading__logo-wrap {
+        width: 20.9375vw;
+      }
+      .loading__text-wrap {
+        width: 11.13875vw;
+        height: 2.303125vw;
+      }
+      .loading__text-wrap {
+        width: 16.33125vw;
+      }
+      @media (orientation: portrait) and (min-width: 768px) {
+        .loading__inner {
+          height: 16.2475vw;
+        }
+        .loading__logo-wrap {
+          width: 20.9375vw;
+        }
+        .loading__text-wrap {
+          width: 11.13875vw;
+          height: 2.303125vw;
+        }
+        .loading__text-wrap {
+          width: 16.33125vw;
+        }
+      }
+      @media (orientation: portrait) and (max-width: 767.98px) {
+        .loading__inner {
+          height: 39.7333333333vw;
+        }
+        .loading__logo-wrap {
+          width: 46.6666666667vw;
+        }
+        .loading__text-wrap {
+          width: 35.4666666667vw;
+          height: 7.3333333333vw;
+        }
+      }
+    </style>
+
+    <script src="assets/js/top.8f85846c.js"></script>
+    <link rel="stylesheet" href="assets/css/top.e457da92.css" />
+  </head>
+
+  <body class="-phase-01" data-view="false" data-phase="01">
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PX3LXCMR"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="loading">
+      <div class="loading__inner">
+        <div class="loading__logo-wrap">
+          <img
+            src="assets/images/april_logo.c6105519.png"
+            class="loading__logo"
+            alt="キャル＆ヤバイバル"
+          />
+        </div>
+        <div class="loading__text-wrap">
+          <img
+            src="assets/images/loading.d79962d9.png"
+            class="loading__text"
+            alt="Now Loading"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="wrapper__inner js-scroll-dom">
+        <main class="main">
+          <div class="kv">
+            <img
+              src="assets/images/kv_bg.b1b8f20e.png"
+              class="main__kv-bg"
+              alt=""
+            />
+            <h1 class="kv__logo-wrap">
+              <img
+                src="assets/images/april_logo.c6105519.png"
+                class="kv__logo"
+                alt="キャル&ヤバイバル"
+              />
+            </h1>
+            <div class="kv__chara-wrap">
+              <img
+                src="assets/images/kv_back.104a0041.png"
+                class="kv__obj-shadow"
+                alt=""
+              />
+              <img
+                src="assets/images/kv_obj_left.fb0acabe.png"
+                class="kv__obj -left"
+                alt=""
+              />
+              <img
+                src="assets/images/kv_obj_right.6591e264.png"
+                class="kv__obj -right"
+                alt=""
+              />
+              <img
+                src="assets/images/kv_cal.3ad98e43.png"
+                class="kv__cal"
+                alt=""
+              />
+              <img
+                src="assets/images/top_chara.6c6ed619.png"
+                class="kv__chara"
+                alt=""
+              />
+            </div>
+            <div class="kv__title-wrap">
+              <img
+                src="assets/images/kv_text.b819e9b2.png"
+                class="kv__title"
+                alt="キャルが囚われた！期間内にキャルを救え！"
+              />
+            </div>
+
+            <div class="kv__graph js-num-error">
+              <img
+                src="assets/images/graph_catch.e7891889.png"
+                class="graph__catch"
+                alt="みんなの総救出キャル数"
+              />
+              <img
+                src="assets/images/graph_status.3a3fc5a0.png"
+                class="graph__status"
+                alt="目標達成！"
+              />
+              <div class="graph__frame">
+                <div class="graph__gauge">
+                  <img
+                    src="assets/images/graph_gauge.651ef09e.png"
+                    class="js-gauge-green"
+                    alt=""
+                  />
+                </div>
+                <img
+                  src="assets/images/graph_frame.0e2c9f5a.png"
+                  class="graph__frame-img"
+                  alt=""
+                />
+
+                <div class="graph__text">
+                  <img
+                    src="assets/images/graph_txt3.14498fd6.png"
+                    class="graph__txt3"
+                    alt="限界に挑戦中"
+                  />
+                  <img
+                    src="assets/images/graph_txt1.3fcd971c.png"
+                    class="graph__txt1"
+                    alt="ただいま"
+                  />
+
+                  <p class="graph__num" id="js-total-count"></p>
+                  <p class="graph__num -error-text" data-total="取得中...">
+                    取得中...
+                  </p>
+
+                  <img
+                    src="assets/images/graph_txt2.5fdcae99.png"
+                    class="graph__txt2"
+                    alt="キャル"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img src="assets/images/bg.40b7f424.png" class="main__bg" alt="" />
+
+          <div class="game">
+            <a
+              href="game.html"
+              target="_blank"
+              class="game__button -viewing"
+              id="js-game-button"
+            >
+              <span class="game__button-text">
+                <img
+                  src="assets/images/play_game_title.273875bc.png"
+                  alt="キャルを救出する！"
+                />
+              </span>
+            </a>
+            <img
+              src="assets/images/top_day.07771f56.png"
+              class="game__day"
+              alt="開催期間 2024年4月1日（月）23:59まで"
+            />
+          </div>
+
+          <div class="round-box -rule js-fadein-up">
+            <img
+              src="assets/images/rule_bg.c04cc3d7.png"
+              class="round-box__bg -fade-02"
+              alt=""
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/rule_title.b75d2421.png"
+              class="round-box__title -fade-01"
+              alt="あそびかた"
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/rule_cts.f9819b14.png"
+              class="round-box__contents -fade-03"
+              alt=""
+              decoding="async"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="round-box -campaign js-fadein-up">
+            <img
+              src="assets/images/campaign_bg.616321f2.png"
+              class="round-box__bg -fade-02"
+              alt=""
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/campaign_title.dd167894.png"
+              class="round-box__title -fade-01"
+              alt="キャンペーン"
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/campaign_cts.642c9063.png"
+              class="round-box__contents -fade-03"
+              alt="総キャル数150万達成で全ユーザーに1500ジュエルプレゼント！報酬受け取り期間 2024年4月16日23:59まで"
+              decoding="async"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="movie -with-ttl js-fadein-up">
+            <img
+              src="assets/images/movie_title.51f60441.png"
+              class="movie__title -fade-01"
+              alt="ムービー"
+              decoding="async"
+              loading="lazy"
+            />
+            <a
+              class="js-c-modal movie__link -fade-02"
+              data-modal-type="movie"
+              data-movie-id="LDK_ntMQJ6k"
+            >
+              <img
+                src="assets/images/movie_frame.298c7752.png"
+                class="movie__frame"
+                alt=""
+                decoding="async"
+                loading="lazy"
+              />
+              <img
+                src="assets/images/movie_thumb.ed1894c4.png"
+                class="movie__thumb"
+                alt=""
+                decoding="async"
+                loading="lazy"
+              />
+              <img
+                src="assets/images/movie_play.32039a7a.svg"
+                class="movie__play"
+                alt=""
+                decoding="async"
+                loading="lazy"
+              />
+            </a>
+
+            <div class="c-modal" id="c-modal">
+              <div class="c-modal__body">
+                <div class="c-modal__main">
+                  <div class="c-modal__contents">
+                    <div class="c-modal__contents__wrap">
+                      <a
+                        href="#"
+                        class="c-modal__contents__close c-modal-close"
+                        aria-label="X"
+                      ></a>
+                      <div id="c-modal-render"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c-modal__bg c-modal-close"></div>
+            </div>
+
+            <template id="tpl-c-modal-content-mov">
+              <div class="c-modal-movie">
+                <iframe
+                  width="640"
+                  height="360"
+                  src=""
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </template>
+          </div>
+
+          <div class="movie js-fadein-up">
+            <a
+              class="js-c-modal movie__link -fade-02"
+              data-modal-type="movie"
+              data-movie-id="LV3eoQB6Sn4"
+            >
+              <img
+                src="assets/images/movie_frame.298c7752.png"
+                class="movie__frame"
+                alt=""
+                decoding="async"
+                loading="lazy"
+              />
+              <img
+                src="assets/images/movie_thumb2.a8bcfb7e.png"
+                class="movie__thumb"
+                alt=""
+                decoding="async"
+                loading="lazy"
+              />
+              <img
+                src="assets/images/movie_play.32039a7a.svg"
+                class="movie__play"
+                alt=""
+                decoding="async"
+                loading="lazy"
+              />
+            </a>
+
+            <div class="c-modal" id="c-modal">
+              <div class="c-modal__body">
+                <div class="c-modal__main">
+                  <div class="c-modal__contents">
+                    <div class="c-modal__contents__wrap">
+                      <a
+                        href="#"
+                        class="c-modal__contents__close c-modal-close"
+                        aria-label="X"
+                      ></a>
+                      <div id="c-modal-render"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c-modal__bg c-modal-close"></div>
+            </div>
+
+            <template id="tpl-c-modal-content-mov">
+              <div class="c-modal-movie">
+                <iframe
+                  width="640"
+                  height="360"
+                  src=""
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </template>
+          </div>
+
+          <div class="x-share js-fadein-up">
+            <button class="x-share__button -fade-01" id="js-share-button">
+              <img
+                src="assets/images/X_share_btn.422f8b3b.png"
+                class="X_share_btn"
+                alt="xへポストする"
+                decoding="async"
+                loading="lazy"
+              />
+            </button>
+          </div>
+
+          <footer class="footer__wrap">
+            <div class="footer js-fadein-up">
+              <div class="footer__inner -fade-01">
+                <div class="footer__page-top js-totop">
+                  <img
+                    src="assets/images/footer_top_btn.d85d4013.png"
+                    alt="ページ上部へ戻る"
+                  />
+                </div>
+                <div class="footer__logo">
+                  <img
+                    src="assets/images/footer_logo.9b054308.png"
+                    alt="プリンセスコネクト Re:Dive"
+                  />
+                </div>
+
+                <div class="footer__apps">
+                  <img
+                    src="assets/images/footer_app_title.06ba6638.png"
+                    class="footer__apps-title"
+                    alt="キャルが活躍するプリコネRを今すぐプレイ！"
+                  />
+                  <ul class="footer__apps-list">
+                    <li class="footer__apps-item">
+                      <a
+                        href="https://apps.apple.com/jp/app/id1134429300"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><img
+                          src="assets/images/footer_app_link_appstore.f86544a5.png"
+                          alt="AppStoreからダウンロード"
+                        />
+                      </a>
+                    </li>
+                    <li class="footer__apps-item">
+                      <a
+                        href="https://play.google.com/store/apps/details?id=jp.co.cygames.princessconnectredive"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><img
+                          src="assets/images/footer_app_link_googleplay.06a337fb.png"
+                          alt="GooglePlayで手に入れよう"
+                        />
+                      </a>
+                    </li>
+                    <li class="footer__apps-item">
+                      <a
+                        href="https://dmg.priconne-redive.jp/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><img
+                          src="assets/images/footer_app_link_dmm.e8545d86.png"
+                          alt="DMM GAMES"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <ul class="footer__banners">
+                  <li>
+                    <a
+                      href="https://priconne-redive.jp/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img
+                        src="assets/images/footer_banner_official.2f2b7138.png"
+                        class="footer__banner"
+                        alt="プリンセスコネクト Re:Dive ゲーム公式サイトはこちら"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://anime.priconne-redive.jp/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img
+                        src="assets/images/footer_banner_anime.ff9f3a2c.png"
+                        class="footer__banner"
+                        alt="プリンセスコネクト Re:Dive Season2 アニメ第2期公式サイト"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/channel/UCiPSajGFI4ja74nYPU1MexA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img
+                        src="assets/images/footer_banner_youtube.d59b75c1.png"
+                        class="footer__banner"
+                        alt="プリンセスコネクト Re:Dive YouTubeチャンネル"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="footer__links">
+                  <a href="https://priconne-redive.jp/about/" target="_blank"
+                    >このサイトについて</a
+                  >
+                  <a href="https://priconne-redive.jp/privacy/" target="_blank"
+                    >プライバシーポリシー</a
+                  >
+                  <a href="license.html">権利表記</a>
+                </div>
+
+                <a
+                  href="http://www.cygames.co.jp/"
+                  target="_blank"
+                  class="footer__cygames"
+                >
+                  <img
+                    src="assets/images/footer_cygames.86eb42ae.svg"
+                    class="footer__cygames"
+                    alt="Cygames"
+                  />
+                </a>
+
+                <p class="footer__copyright">
+                  ※AppleとAppleのロゴは、米国およびその他の国で登録されたApple
+                  Inc.の商標です。<br />
+                  ※Google Play および Google Play ロゴは、Google LLC
+                  の商標です。<br />
+                </p>
+                <p class="footer__copyright-cmark">© Cygames, Inc.</p>
+              </div>
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

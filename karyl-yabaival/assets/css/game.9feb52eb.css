@@ -1,0 +1,53 @@
+/*!
+Copyright (c) 2012 Google Inc. (opensource@google.com).
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
+http://scripts.sil.org/OFL
+*/ /*!
+Copyright 2011 Google Inc. All Rights Reserved.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
+*/
+body {
+  overflow-x: hidden;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.game {
+  width: var(--width);
+  height: calc(var(--width) * 9 / 16);
+  --width: 100vw;
+}
+body.w-longer-than-canvas .game {
+  width: calc((100vh - (env(safe-area-inset-bottom) + 62px)) * 16 / 9);
+  height: calc(100vh - (env(safe-area-inset-bottom) + 62px));
+}
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 1280px) {
+  .game {
+    --width: 1280px;
+  }
+}
