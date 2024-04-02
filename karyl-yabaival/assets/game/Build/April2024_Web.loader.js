@@ -429,6 +429,15 @@ function createUnityInstance(e, t, n) {
       );
     }),
     (s.fetchWithProgress = function (e, t) {
+      if (e == "https://pf8dfejn3zg9k.priconne-redive.jp/karyl_rescue/index")
+        e = "index.json";
+      if (e == "https://pf8dfejn3zg9k.priconne-redive.jp/karyl_rescue/start")
+        e = "start.json";
+      if (e == "https://pf8dfejn3zg9k.priconne-redive.jp/karyl_rescue/end") {
+        e = "end.json";
+        t.method = "GET";
+        t.body = undefined;
+      }
       var n = function () {};
       return (
         t && t.onProgress && (n = t.onProgress),

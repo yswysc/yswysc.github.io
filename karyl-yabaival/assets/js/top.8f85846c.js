@@ -2056,7 +2056,7 @@
         }
         init(t) {
           (this.phase = t),
-            this._checkLimitDate(),
+            // this._checkLimitDate(),
             ("01" !== this.phase && "02" !== this.phase) ||
               this._getTotalCount();
         }
