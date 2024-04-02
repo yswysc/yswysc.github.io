@@ -3,7 +3,7 @@ Copyright (c) 2012 Google Inc. (opensource@google.com).
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
 http://scripts.sil.org/OFL
-*//*!
+*/ /*!
 Copyright 2011 Google Inc. All Rights Reserved.
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,4 +15,533 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
-*/@keyframes kv-logo{0%{opacity:0;margin-top:-200%}10%{opacity:1}30%{opacity:1;margin-top:0}50%{opacity:1;margin-top:-15%}70%{opacity:1;margin-top:0}80%{opacity:1;margin-top:-5%}90%{opacity:1;margin-top:0}95%{opacity:1;margin-top:-2%}100%{opacity:1;margin-top:0}}.wrapper{margin:0 auto}.wrapper__inner{position:relative;background-color:#fff}.main{margin:0 auto;position:relative;z-index:10;overflow-y:hidden}.main__kv-bg{position:absolute;top:0;left:0;width:100%;object-fit:cover;animation:kv-bg ease-out 2.5s 0s forwards}.main__bg{position:absolute;left:0;width:100%;height:100%}.kv__logo-wrap{position:absolute;z-index:20;display:block;left:50%;transform:translate3d(-50%, 0, 0)}.kv__logo{opacity:0;animation:kv-logo .45s .4s forwards}.license__inner{position:relative;z-index:10;background-color:#ebe1d4;border:0 solid #615653;margin:0 auto}.license__title{text-align:center;color:#5d3e92}.license__section{color:#474747;position:relative}.license__section::after{content:"";position:absolute;left:0;width:100%;background-color:#5d3e92}.license__section span{display:block}.license__section a{color:#2c94e4}.license__section:nth-last-of-type(1){padding-bottom:0}.license__section:nth-last-of-type(1)::after{display:none}.license__button{display:block;margin:0 auto}.license__button img{transition:transform .2s}@media (hover: hover)and (pointer: fine)and (orientation: landscape)and (min-width: 768px){.license__section a:hover{color:#79bbee}.license__button:hover img{transform:scale(1.07)}}@media (orientation: landscape)and (min-width: 768px){body{overflow:hidden;background:url(/assets/images/bg.9841cffa.png) repeat top center/100%}.wrapper__inner{height:100vh;overflow-y:scroll;margin:0 auto 0 0;border-right:0 solid #fff}.wrapper__inner::-webkit-scrollbar-thumb{background-color:#5c3f92}.wrapper__inner::-webkit-scrollbar-track{background-color:#fff}body[data-os=ios] .wrapper__inner{border-right:none;padding-right:1vw}body[data-os=ios] .wrapper__inner .main{border-right-width:0;border-left-width:1vw}body[data-os=firefox] .wrapper__inner{border:none;scrollbar-width:thin}body[data-os=firefox] .wrapper__inner .main{border-right-width:0;border-left-width:.625vw}.main{border-left:0 solid #fff;border-right:0 solid #fff}}@media (orientation: landscape)and (min-width: 768px)and (max-width: 1599.98px){.wrapper{width:36.556875vw}.main__bg{top:33.91875vw}.kv__logo-wrap{width:8.081875vw;top:1.381875vw}.license{padding-top:9.63125vw}.license__inner{width:28.475vw;border-width:.335vw;border-radius:.8375vw;padding-left:1.25625vw;padding-right:1.25625vw;margin-bottom:3.559375vw}.license__title{font-size:1.59125vw;margin-top:2.721875vw}.license__section{font-size:1.005vw;padding-top:1.130625vw;padding-bottom:1.130625vw;line-height:1.5075vw}.license__section::after{height:.08375vw;bottom:.1675vw}.license__section span{margin-bottom:.67vw}.license__button{width:10.8875vw;margin-top:2.5125vw;margin-bottom:3.35vw}}@media (orientation: landscape)and (min-width: 768px)and (min-width: 1600px){.wrapper__inner{border-right-width:2.01px}.wrapper__inner::-webkit-scrollbar{width:6.03px}.wrapper__inner::-webkit-scrollbar-thumb{border-radius:5.36px}.main{border-left-width:10.05px;border-right-width:2.01px}}@media (orientation: landscape)and (min-width: 768px)and (orientation: landscape)and (max-width: 767.98px){.wrapper__inner{border-right-width:.125625vw}.wrapper__inner::-webkit-scrollbar{width:.376875vw}.wrapper__inner::-webkit-scrollbar-thumb{border-radius:.335vw}.main{border-left-width:.628125vw;border-right-width:.125625vw}}@media (orientation: landscape)and (min-width: 768px)and (orientation: landscape)and (min-width: 768px)and (max-width: 1599.98px){.wrapper__inner{border-right-width:.125625vw}.wrapper__inner::-webkit-scrollbar{width:.376875vw}.wrapper__inner::-webkit-scrollbar-thumb{border-radius:.335vw}.main{border-left-width:.628125vw;border-right-width:.125625vw}}@media (orientation: portrait)and (min-width: 768px){.wrapper{width:100%}.main{width:100%;overflow-x:hidden}.main__bg{top:108vw}.kv__logo-wrap{width:25.7333333333vw;top:4.4vw}.license{padding-top:30.6666666667vw}.license__inner{width:90.6666666667vw;border-width:1.0666666667vw;border-radius:2.6666666667vw;padding-left:4vw;padding-right:4vw;margin-bottom:11.3333333333vw}.license__title{font-size:5.0666666667vw;margin-top:8.6666666667vw}.license__section{font-size:3.2vw;padding-top:3.6vw;padding-bottom:3.6vw;line-height:4.8vw}.license__section::after{height:.2666666667vw;bottom:.5333333333vw}.license__section span{margin-bottom:2.1333333333vw}.license__button{width:34.6666666667vw;margin-top:8vw;margin-bottom:10.6666666667vw}}@media (min-width: 1600px){.wrapper{width:584.91px}.main__bg{top:542.7px}.kv__logo-wrap{width:129.31px;top:22.11px}.license{padding-top:154.1px}.license__inner{width:455.6px;border-width:5.36px;border-radius:13.4px;padding-left:20.1px;padding-right:20.1px;margin-bottom:56.95px}.license__title{font-size:25.46px;margin-top:43.55px}.license__section{font-size:16.08px;padding-top:18.09px;padding-bottom:18.09px;line-height:24.12px}.license__section::after{height:1.34px;bottom:2.68px}.license__section span{margin-bottom:10.72px}.license__button{width:174.2px;margin-top:40.2px;margin-bottom:53.6px}}@media (orientation: landscape)and (max-width: 767.98px)and (orientation: landscape)and (min-width: 768px)and (max-width: 1599.98px){.wrapper__inner{border-right-width:.125625vw}.wrapper__inner::-webkit-scrollbar{width:.376875vw}.wrapper__inner::-webkit-scrollbar-thumb{border-radius:.335vw}.main{border-left-width:.628125vw;border-right-width:.125625vw}}@media (hover: hover)and (pointer: fine)and (orientation: landscape)and (max-width: 767.98px){.license__section a:hover{color:#79bbee}.license__button:hover img{transform:scale(1.07)}}@media (orientation: landscape)and (max-width: 767.98px){body{overflow:hidden;background:url(/assets/images/bg.9841cffa.png) repeat top center/100%}.wrapper{width:36.556875vw}.wrapper__inner{height:100vh;overflow-y:scroll;margin:0 auto 0 0;border-right:0 solid #fff}.wrapper__inner::-webkit-scrollbar-thumb{background-color:#5c3f92}.wrapper__inner::-webkit-scrollbar-track{background-color:#fff}body[data-os=ios] .wrapper__inner{border-right:none;padding-right:1vw}body[data-os=ios] .wrapper__inner .main{border-right-width:0;border-left-width:1vw}body[data-os=firefox] .wrapper__inner{border:none;scrollbar-width:thin}body[data-os=firefox] .wrapper__inner .main{border-right-width:0;border-left-width:.625vw}.main{border-left:0 solid #fff;border-right:0 solid #fff}.main__bg{top:33.91875vw}.kv__logo-wrap{width:8.081875vw;top:1.381875vw}.license{padding-top:9.63125vw}.license__inner{width:28.475vw;border-width:.335vw;border-radius:.8375vw;padding-left:1.25625vw;padding-right:1.25625vw;margin-bottom:3.559375vw}.license__title{font-size:1.59125vw;margin-top:2.721875vw}.license__section{font-size:1.005vw;padding-top:1.130625vw;padding-bottom:1.130625vw;line-height:1.5075vw}.license__section::after{height:.08375vw;bottom:.1675vw}.license__section span{margin-bottom:.67vw}.license__button{width:10.8875vw;margin-top:2.5125vw;margin-bottom:3.35vw}}@media (orientation: landscape)and (max-width: 767.98px)and (min-width: 1600px){.wrapper__inner{border-right-width:2.01px}.wrapper__inner::-webkit-scrollbar{width:6.03px}.wrapper__inner::-webkit-scrollbar-thumb{border-radius:5.36px}.main{border-left-width:10.05px;border-right-width:2.01px}}@media (orientation: landscape)and (max-width: 767.98px)and (orientation: landscape)and (max-width: 767.98px){.wrapper__inner{border-right-width:.125625vw}.wrapper__inner::-webkit-scrollbar{width:.376875vw}.wrapper__inner::-webkit-scrollbar-thumb{border-radius:.335vw}.main{border-left-width:.628125vw;border-right-width:.125625vw}}@media (orientation: portrait)and (max-width: 767.98px){.wrapper{width:100%}.main{width:100%;overflow-x:hidden}.main__bg{top:108vw}.kv__logo-wrap{width:25.7333333333vw;top:4.4vw}.license{padding-top:30.6666666667vw}.license__inner{width:90.6666666667vw;border-width:1.0666666667vw;border-radius:2.6666666667vw;padding-left:4vw;padding-right:4vw;margin-bottom:11.3333333333vw}.license__title{font-size:5.0666666667vw;margin-top:8.6666666667vw}.license__section{font-size:3.2vw;padding-top:3.6vw;padding-bottom:3.6vw;line-height:4.8vw}.license__section::after{height:.2666666667vw;bottom:.5333333333vw}.license__section span{margin-bottom:2.1333333333vw}.license__button{width:34.6666666667vw;margin-top:8vw;margin-bottom:10.6666666667vw}}
+*/
+@keyframes kv-logo {
+  0% {
+    opacity: 0;
+    margin-top: -200%;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+    margin-top: 0;
+  }
+  50% {
+    opacity: 1;
+    margin-top: -15%;
+  }
+  70% {
+    opacity: 1;
+    margin-top: 0;
+  }
+  80% {
+    opacity: 1;
+    margin-top: -5%;
+  }
+  90% {
+    opacity: 1;
+    margin-top: 0;
+  }
+  95% {
+    opacity: 1;
+    margin-top: -2%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+.wrapper {
+  margin: 0 auto;
+}
+.wrapper__inner {
+  position: relative;
+  background-color: #fff;
+}
+.main {
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  overflow-y: hidden;
+}
+.main__kv-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  animation: kv-bg ease-out 2.5s 0s forwards;
+}
+.main__bg {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.kv__logo-wrap {
+  position: absolute;
+  z-index: 20;
+  display: block;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+.kv__logo {
+  opacity: 0;
+  animation: kv-logo 0.45s 0.4s forwards;
+}
+.license__inner {
+  position: relative;
+  z-index: 10;
+  background-color: #ebe1d4;
+  border: 0 solid #615653;
+  margin: 0 auto;
+}
+.license__title {
+  text-align: center;
+  color: #5d3e92;
+}
+.license__section {
+  color: #474747;
+  position: relative;
+}
+.license__section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #5d3e92;
+}
+.license__section span {
+  display: block;
+}
+.license__section a {
+  color: #2c94e4;
+}
+.license__section:nth-last-of-type(1) {
+  padding-bottom: 0;
+}
+.license__section:nth-last-of-type(1)::after {
+  display: none;
+}
+.license__button {
+  display: block;
+  margin: 0 auto;
+}
+.license__button img {
+  transition: transform 0.2s;
+}
+@media (hover: hover) and (pointer: fine) and (orientation: landscape) and (min-width: 768px) {
+  .license__section a:hover {
+    color: #79bbee;
+  }
+  .license__button:hover img {
+    transform: scale(1.07);
+  }
+}
+@media (orientation: landscape) and (min-width: 768px) {
+  body {
+    overflow: hidden;
+    background: url(../images/bg.9841cffa.png) repeat top center/100%;
+  }
+  .wrapper__inner {
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 0 auto 0 0;
+    border-right: 0 solid #fff;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    background-color: #5c3f92;
+  }
+  .wrapper__inner::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  body[data-os="ios"] .wrapper__inner {
+    border-right: none;
+    padding-right: 1vw;
+  }
+  body[data-os="ios"] .wrapper__inner .main {
+    border-right-width: 0;
+    border-left-width: 1vw;
+  }
+  body[data-os="firefox"] .wrapper__inner {
+    border: none;
+    scrollbar-width: thin;
+  }
+  body[data-os="firefox"] .wrapper__inner .main {
+    border-right-width: 0;
+    border-left-width: 0.625vw;
+  }
+  .main {
+    border-left: 0 solid #fff;
+    border-right: 0 solid #fff;
+  }
+}
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1599.98px) {
+  .wrapper {
+    width: 36.556875vw;
+  }
+  .main__bg {
+    top: 33.91875vw;
+  }
+  .kv__logo-wrap {
+    width: 8.081875vw;
+    top: 1.381875vw;
+  }
+  .license {
+    padding-top: 9.63125vw;
+  }
+  .license__inner {
+    width: 28.475vw;
+    border-width: 0.335vw;
+    border-radius: 0.8375vw;
+    padding-left: 1.25625vw;
+    padding-right: 1.25625vw;
+    margin-bottom: 3.559375vw;
+  }
+  .license__title {
+    font-size: 1.59125vw;
+    margin-top: 2.721875vw;
+  }
+  .license__section {
+    font-size: 1.005vw;
+    padding-top: 1.130625vw;
+    padding-bottom: 1.130625vw;
+    line-height: 1.5075vw;
+  }
+  .license__section::after {
+    height: 0.08375vw;
+    bottom: 0.1675vw;
+  }
+  .license__section span {
+    margin-bottom: 0.67vw;
+  }
+  .license__button {
+    width: 10.8875vw;
+    margin-top: 2.5125vw;
+    margin-bottom: 3.35vw;
+  }
+}
+@media (orientation: landscape) and (min-width: 768px) and (min-width: 1600px) {
+  .wrapper__inner {
+    border-right-width: 2.01px;
+  }
+  .wrapper__inner::-webkit-scrollbar {
+    width: 6.03px;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    border-radius: 5.36px;
+  }
+  .main {
+    border-left-width: 10.05px;
+    border-right-width: 2.01px;
+  }
+}
+@media (orientation: landscape) and (min-width: 768px) and (orientation: landscape) and (max-width: 767.98px) {
+  .wrapper__inner {
+    border-right-width: 0.125625vw;
+  }
+  .wrapper__inner::-webkit-scrollbar {
+    width: 0.376875vw;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    border-radius: 0.335vw;
+  }
+  .main {
+    border-left-width: 0.628125vw;
+    border-right-width: 0.125625vw;
+  }
+}
+@media (orientation: landscape) and (min-width: 768px) and (orientation: landscape) and (min-width: 768px) and (max-width: 1599.98px) {
+  .wrapper__inner {
+    border-right-width: 0.125625vw;
+  }
+  .wrapper__inner::-webkit-scrollbar {
+    width: 0.376875vw;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    border-radius: 0.335vw;
+  }
+  .main {
+    border-left-width: 0.628125vw;
+    border-right-width: 0.125625vw;
+  }
+}
+@media (orientation: portrait) and (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .main__bg {
+    top: 108vw;
+  }
+  .kv__logo-wrap {
+    width: 25.7333333333vw;
+    top: 4.4vw;
+  }
+  .license {
+    padding-top: 30.6666666667vw;
+  }
+  .license__inner {
+    width: 90.6666666667vw;
+    border-width: 1.0666666667vw;
+    border-radius: 2.6666666667vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-bottom: 11.3333333333vw;
+  }
+  .license__title {
+    font-size: 5.0666666667vw;
+    margin-top: 8.6666666667vw;
+  }
+  .license__section {
+    font-size: 3.2vw;
+    padding-top: 3.6vw;
+    padding-bottom: 3.6vw;
+    line-height: 4.8vw;
+  }
+  .license__section::after {
+    height: 0.2666666667vw;
+    bottom: 0.5333333333vw;
+  }
+  .license__section span {
+    margin-bottom: 2.1333333333vw;
+  }
+  .license__button {
+    width: 34.6666666667vw;
+    margin-top: 8vw;
+    margin-bottom: 10.6666666667vw;
+  }
+}
+@media (min-width: 1600px) {
+  .wrapper {
+    width: 584.91px;
+  }
+  .main__bg {
+    top: 542.7px;
+  }
+  .kv__logo-wrap {
+    width: 129.31px;
+    top: 22.11px;
+  }
+  .license {
+    padding-top: 154.1px;
+  }
+  .license__inner {
+    width: 455.6px;
+    border-width: 5.36px;
+    border-radius: 13.4px;
+    padding-left: 20.1px;
+    padding-right: 20.1px;
+    margin-bottom: 56.95px;
+  }
+  .license__title {
+    font-size: 25.46px;
+    margin-top: 43.55px;
+  }
+  .license__section {
+    font-size: 16.08px;
+    padding-top: 18.09px;
+    padding-bottom: 18.09px;
+    line-height: 24.12px;
+  }
+  .license__section::after {
+    height: 1.34px;
+    bottom: 2.68px;
+  }
+  .license__section span {
+    margin-bottom: 10.72px;
+  }
+  .license__button {
+    width: 174.2px;
+    margin-top: 40.2px;
+    margin-bottom: 53.6px;
+  }
+}
+@media (orientation: landscape) and (max-width: 767.98px) and (orientation: landscape) and (min-width: 768px) and (max-width: 1599.98px) {
+  .wrapper__inner {
+    border-right-width: 0.125625vw;
+  }
+  .wrapper__inner::-webkit-scrollbar {
+    width: 0.376875vw;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    border-radius: 0.335vw;
+  }
+  .main {
+    border-left-width: 0.628125vw;
+    border-right-width: 0.125625vw;
+  }
+}
+@media (hover: hover) and (pointer: fine) and (orientation: landscape) and (max-width: 767.98px) {
+  .license__section a:hover {
+    color: #79bbee;
+  }
+  .license__button:hover img {
+    transform: scale(1.07);
+  }
+}
+@media (orientation: landscape) and (max-width: 767.98px) {
+  body {
+    overflow: hidden;
+    background: url(../images/bg.9841cffa.png) repeat top center/100%;
+  }
+  .wrapper {
+    width: 36.556875vw;
+  }
+  .wrapper__inner {
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 0 auto 0 0;
+    border-right: 0 solid #fff;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    background-color: #5c3f92;
+  }
+  .wrapper__inner::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  body[data-os="ios"] .wrapper__inner {
+    border-right: none;
+    padding-right: 1vw;
+  }
+  body[data-os="ios"] .wrapper__inner .main {
+    border-right-width: 0;
+    border-left-width: 1vw;
+  }
+  body[data-os="firefox"] .wrapper__inner {
+    border: none;
+    scrollbar-width: thin;
+  }
+  body[data-os="firefox"] .wrapper__inner .main {
+    border-right-width: 0;
+    border-left-width: 0.625vw;
+  }
+  .main {
+    border-left: 0 solid #fff;
+    border-right: 0 solid #fff;
+  }
+  .main__bg {
+    top: 33.91875vw;
+  }
+  .kv__logo-wrap {
+    width: 8.081875vw;
+    top: 1.381875vw;
+  }
+  .license {
+    padding-top: 9.63125vw;
+  }
+  .license__inner {
+    width: 28.475vw;
+    border-width: 0.335vw;
+    border-radius: 0.8375vw;
+    padding-left: 1.25625vw;
+    padding-right: 1.25625vw;
+    margin-bottom: 3.559375vw;
+  }
+  .license__title {
+    font-size: 1.59125vw;
+    margin-top: 2.721875vw;
+  }
+  .license__section {
+    font-size: 1.005vw;
+    padding-top: 1.130625vw;
+    padding-bottom: 1.130625vw;
+    line-height: 1.5075vw;
+  }
+  .license__section::after {
+    height: 0.08375vw;
+    bottom: 0.1675vw;
+  }
+  .license__section span {
+    margin-bottom: 0.67vw;
+  }
+  .license__button {
+    width: 10.8875vw;
+    margin-top: 2.5125vw;
+    margin-bottom: 3.35vw;
+  }
+}
+@media (orientation: landscape) and (max-width: 767.98px) and (min-width: 1600px) {
+  .wrapper__inner {
+    border-right-width: 2.01px;
+  }
+  .wrapper__inner::-webkit-scrollbar {
+    width: 6.03px;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    border-radius: 5.36px;
+  }
+  .main {
+    border-left-width: 10.05px;
+    border-right-width: 2.01px;
+  }
+}
+@media (orientation: landscape) and (max-width: 767.98px) and (orientation: landscape) and (max-width: 767.98px) {
+  .wrapper__inner {
+    border-right-width: 0.125625vw;
+  }
+  .wrapper__inner::-webkit-scrollbar {
+    width: 0.376875vw;
+  }
+  .wrapper__inner::-webkit-scrollbar-thumb {
+    border-radius: 0.335vw;
+  }
+  .main {
+    border-left-width: 0.628125vw;
+    border-right-width: 0.125625vw;
+  }
+}
+@media (orientation: portrait) and (max-width: 767.98px) {
+  .wrapper {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .main__bg {
+    top: 108vw;
+  }
+  .kv__logo-wrap {
+    width: 25.7333333333vw;
+    top: 4.4vw;
+  }
+  .license {
+    padding-top: 30.6666666667vw;
+  }
+  .license__inner {
+    width: 90.6666666667vw;
+    border-width: 1.0666666667vw;
+    border-radius: 2.6666666667vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-bottom: 11.3333333333vw;
+  }
+  .license__title {
+    font-size: 5.0666666667vw;
+    margin-top: 8.6666666667vw;
+  }
+  .license__section {
+    font-size: 3.2vw;
+    padding-top: 3.6vw;
+    padding-bottom: 3.6vw;
+    line-height: 4.8vw;
+  }
+  .license__section::after {
+    height: 0.2666666667vw;
+    bottom: 0.5333333333vw;
+  }
+  .license__section span {
+    margin-bottom: 2.1333333333vw;
+  }
+  .license__button {
+    width: 34.6666666667vw;
+    margin-top: 8vw;
+    margin-bottom: 10.6666666667vw;
+  }
+}

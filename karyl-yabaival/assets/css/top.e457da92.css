@@ -17,7 +17,7 @@ limitations under the License.
 Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
 */
 @font-face {
-  src: url(/e79330321758be9bc5db.woff) format("woff");
+  src: url(../../e79330321758be9bc5db.woff) format("woff");
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -402,8 +402,7 @@ body[data-view="true"] .wrapper {
   display: none;
 }
 .main .graph__frame {
-  background: url(/assets/images/graph_BG.a7d5aa2a.png) no-repeat top
-    left/contain;
+  background: url(../images/graph_BG.a7d5aa2a.png) no-repeat top left/contain;
   opacity: 0;
   animation: kv-gauge-view 0.6s 0.8s forwards;
 }
@@ -420,7 +419,7 @@ body[data-view="true"] .wrapper {
   position: relative;
   margin: 0 auto;
   display: block;
-  background: url(/assets/images/play_game_bg.99cd0983.png) no-repeat center
+  background: url(../images/play_game_bg.99cd0983.png) no-repeat center
     center/contain;
   transform: translate3d(0, 0, 0);
   animation: hover-bounce-down 0.5s 0s forwards;
@@ -439,7 +438,7 @@ body[data-view="true"] .wrapper {
   position: absolute;
   top: 50%;
   transform: translate3d(0, -50%, 0);
-  background: url(/assets/images/play_game_arrow.364644aa.png) no-repeat center
+  background: url(../images/play_game_arrow.364644aa.png) no-repeat center
     center/contain;
 }
 .main .game__button-text {
@@ -530,7 +529,7 @@ body[data-view="true"] .wrapper {
 .main .movie .c-modal__contents__close {
   position: absolute;
   right: 0;
-  background: url(/assets/images/movie_close.8afa62df.png) no-repeat center
+  background: url(../images/movie_close.8afa62df.png) no-repeat center
     center/contain;
   transition: transform 0.2s;
 }
@@ -591,8 +590,7 @@ body[data-view="true"] .wrapper {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: url(/assets/images/graph_over.14d7058e.png) no-repeat top
-    left/cover;
+  background: url(../images/graph_over.14d7058e.png) no-repeat top left/cover;
   animation: kv-gauge-light 2s 1.5s infinite;
 }
 .-phase-03 .main__kv-bg {
@@ -688,7 +686,7 @@ body[data-view="true"] .wrapper {
 @media (orientation: landscape) and (min-width: 768px) {
   body {
     overflow: hidden;
-    background: url(/assets/images/bg.9841cffa.png) repeat top center/100%;
+    background: url(../images/bg.9841cffa.png) repeat top center/100%;
   }
   .wrapper__inner {
     height: 100vh;
@@ -1811,7 +1809,7 @@ body[data-view="true"] .wrapper {
 @media (orientation: landscape) and (max-width: 767.98px) {
   body {
     overflow: hidden;
-    background: url(/assets/images/bg.9841cffa.png) repeat top center/100%;
+    background: url(../images/bg.9841cffa.png) repeat top center/100%;
   }
   .wrapper {
     width: 36.556875vw;
